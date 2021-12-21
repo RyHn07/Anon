@@ -1,0 +1,145 @@
+body {
+    padding: 0px;
+    margin: 0px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #E0C6A1;
+}
+header {
+    background-color: white;
+}
+.header {
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+.container {
+    width: 1080px;
+    margin: auto;
+}
+header .nav ul li {
+    display: inline-block;
+}
+header .nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 12px;
+    padding: 10px;
+}
+header .logo h1 {
+    font-size: 30px
+    padding: 0px;
+    font-weight: 700;
+    margin: 0px;
+}
+header .icon ul li {
+    display: inline-block;
+}
+header .icon ul li a i {
+    padding: 8px;
+    color: black;
+}
+header .nav ul {
+    padding: 0px;
+}
+.hero-area {
+    height: 700px;
+    background-color: violet;
+    background-image: url(https://images.unsplash.com/photo-1538481199705-c710c4e965fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1565&q=80);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+.hero-area .hero-content {
+    text-align: center;
+    width: 50%;
+    padding-top: 200px;
+    color: white;
+}
+.hero-area .hero-content p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+.hero-area .hero-content h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    margin: 25px;
+}
+.hero-area .hero-content a {
+    padding: 15px;
+    background-color: white;
+    text-decoration: none;
+    margin-top: 25px;
+    display: inline-block;
+}
+footer {
+    background-color: black;
+    color: white;
+}
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+footer .container .name {
+    font-weight: bold;
+    font-size: 24px;
+}
+footer .container .footer-logo a i {
+    color: white;
+    padding-right: 15px;
+    font-size: 16px;
+}
+footer .container p {
+    font-size: 12px;
+}
+footer .container .input {
+    border: 0px;
+    border-radius: none;
+    background-color: black;
+    color: white;
+}
+footer .container .btn-subscribe {
+    background-color: black;
+    border: 0px;
+    color: white;
+    margin: 0px;
+}
+footer .subscription {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.281);
+    padding: 8px 0px;
+}
+footer .copyright-area {
+    border-top: 0.5px solid rgba(255, 255, 255, 0.37);
+}
+footer .copyright-area .copyright{
+    align-items: center;
+    display: flex;
+}
+footer .footer-menu {
+    padding: 20px 0;
+}
+footer .footer-menu ul {
+    padding: 0px;
+    list-style: none;
+    margin: 0px;
+}
+footer .footer-menu ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    font-size: 12px;
+}
+footer .copyright-area .copyright .payment a {
+    color: white;
+    padding: 20px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-block;
+}
